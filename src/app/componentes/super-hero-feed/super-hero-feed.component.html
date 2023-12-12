@@ -1,0 +1,18 @@
+<div class="container" style="width: 20%; text-align: center; background-color: rgb(191, 191, 221);">
+  <div class="row" style="background-color: rgb(138, 138, 209)">
+    <div class="col" style="font-weight: bold">
+      ID:
+    </div>
+    <div class="col" style="font-weight: bold;">
+      NAME:
+    </div>
+  </div>
+  <div class="row" *ngFor="let heroes of hero">
+    <div class="col">
+      {{heroes.id}}
+    </div>
+    <div class="col">
+      {{heroes.name}}
+    </div>
+  </div>
+</div>
